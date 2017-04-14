@@ -10,17 +10,17 @@ Quizas hay que tener Sails.js instalado globalmente (usar `npm install -g sails`
 
 ## Poblar base de datos
 
-Primero agregar guitarras usando
+Subir la app con
+
+```
+sails lift
+```
+
+Agregar guitarras usando
 
 ```
 POST http://localhost:1337/guitar
 { "brand": "Fender" }
-```
-
-Luego subir la app con
-
-```
-sails lift
 ```
 
 Entrar a 
